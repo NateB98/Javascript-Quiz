@@ -6,4 +6,4 @@ the quiz has a timer that starts upon pressing the start quiz button and you are
 your score is the time you have left remaining after the last question or you lose and can start again if you
 run out of time. your high score is displayed after typing your name or initials.
 
-![Photo of quiz](C:\Users\natha\Bootcamp\homework\Javascript-Quiz\assets\image\javascript-quiz-screenshot.png)
+![Photo of quiz](assets\image\javascript-quiz-screenshot.png)
