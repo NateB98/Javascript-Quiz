@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>JS Quiz</title>
+</head>
+<body>
+    <!-- starts quiz -->
+    <div class="startScreen" id="quizDirections">
+        <button id="startButton" class="quizButton"> Start Quiz!</button>
+    </div>
+
+    <section id="quizSection" class="invisible ">
+        <h1 id="question"> Question </h1>
+        <div id="answers" class="buttons">
+            <button id="answer-1" class="answer">Answer</button>
+            <button id="answer-2" class="answer">Answer</button>
+            <button id="answer-3" class="answer">Answer</button>
+            <button id="answer-4" class="answer">Answer</button>
+        </div>
+    </section>
+
+    <div id="result" class="result">
+        
+    </div>
+
+    <!-- highscores -->
+    <div id="leaderBoard" class="leaderBoard invisible"> 
+        <button id="highscoreButton" class="invisible quizButton" onclick="startNewGame()">Retake Quiz</button>
+    </div>
+
+    <script src="assets/js/app.js"></script>
+</body>
+</html>
