@@ -1,0 +1,99 @@
+header {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(235, 42, 42);
+    color: rgb(209, 199, 199);
+  }
+
+body {
+    font-size: x-large;
+    text-align: center;
+    display:flex;
+    background-color: rgb(235, 42, 42);
+    flex-direction: column;
+    color: rgb(209, 199, 199);
+    padding: 100px;
+    justify-content: space-between;
+  }
+  
+  .start {
+    text-align: center;
+    display:flex;
+    background-color: rgb(235, 42, 42);
+    flex-direction: column;
+    color: rgb(209, 199, 199);
+    padding: 100px;
+    justify-content: space-between;
+    border-style: solid;
+    border-width: 30px;
+  
+  }
+  
+  .infoList {
+    text-align: center;
+    display:flex;
+    background-color: rgb(235, 42, 42);
+    flex-direction: column;
+    color: rgb(209, 199, 199);
+    padding: 100px;
+    justify-content: space-between;
+  }
+
+  .info {
+    margin: 10px;
+  }
+
+  .quizButton {
+    max-width: 100px;
+    align-self: center;
+    background-color: black; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 15px;
+  
+  } 
+  
+  .invisible {
+    display: none;
+  }
+  
+  .result {
+    text-align: center;
+    display:flex;
+    background-color: rgb(235, 42, 42);
+    flex-direction: column;
+    color: rgb(209, 199, 199);
+    padding: 100px;
+    justify-content: space-between;
+  }
+  
+  .buttons .answer{  
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    align-self: center;
+    background-color:  black; 
+    justify-content: space-between;
+    border: none;
+    color: rgb(209, 199, 199);
+    padding: 15px 32px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 15px;
+  
+   }
+   
+  .leaderBoard {
+    text-align: center;
+    display:flex;
+    background-color: rgb(235, 42, 42);
+    flex-direction: column;
+    color: rgb(209, 199, 199);
+    padding: 100px;
+    justify-content: space-between;
+  }

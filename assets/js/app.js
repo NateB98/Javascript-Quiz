@@ -167,7 +167,7 @@ var questions = [
   window.alert("Would you like to try again?");
   window.location.reload();
   } else {
-  window.alert("SAVING YOUR SCORE!")
+  window.alert("Score Saved!")
 
   playerName = playerNameEnter;
   
