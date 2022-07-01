@@ -8,12 +8,26 @@
     <title>JS Quiz</title>
 </head>
 <body>
-    <!-- starts quiz -->
+    <header>
+        <div class="countDown">
+            <div class="timerText invisible" id = "timerText"> Time left: <span id="counter"></span>
+            </div>
+        </div>
+    </header>
+
     <div class="startScreen" id="quizDirections">
+        <section class="infoList">
+            <div class="info">1. You have 1 minute to finish the quiz. </div>
+            <div class="info">2. You will select one correct answer.</div>
+            <div class="info">3. You will be deducted 10 seconds per wrong answer.</div>
+            <div class="info">4. Your remaining time at the end of the quiz will be saved as your score.</div>
+            <div class="info"> GOOD LUCK!</div>
+        </section>
         <button id="startButton" class="quizButton"> Start Quiz!</button>
     </div>
 
-    <section id="quizSection" class="invisible ">
+    <!-- starts quiz-->
+    <section id="quiz" class="invisible ">
         <h1 id="question"> Question </h1>
         <div id="answers" class="buttons">
             <button id="answer-1" class="answer">Answer</button>
